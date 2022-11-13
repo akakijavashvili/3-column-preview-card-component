@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{font-size: 15px;}
+.container{
+    width: 70%;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+}
+.content-1{
+    background-color: hsl(31, 77%, 52%);
+padding: 50px 50px;
+color: white;
+}
+.content-1 h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.content-1 p{
+    padding-bottom: 50px;
+}
+.content-1 button{
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+}
+.content-1 button:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border: solid 1.5px white;
+    padding: 8.5px 28.5px;
+}
+.content-2{
+    background-color: hsl(184, 100%, 22%);
+padding: 50px 50px;
+color: white;
+}
+.content-2 h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.content-2 p{
+    padding-bottom: 50px;
+}
+.content-2 button{
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+}
+.content-2 button:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border: solid 1.5px white;
+    padding: 8.5px 28.5px;
+}
+.content-3{
+    background-color: hsl(179, 100%, 13%);
+padding: 50px 50px;
+color: white;
+}
+.content-3 h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.content-3 p{
+    padding-bottom: 50px;
+}
+.content-3 button{
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+    padding: 10px 30px;
+    margin-bottom: 0px;
+    border: none;
+    border-radius: 20px;
+}
+.content-3 button:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border: solid 1.5px white;
+    padding: 8.5px 28.5px;
+}
+/* //responsive design// */
+@media only screen and (max-width: 600px){
+    .container{
+        display: block;
+    }
+    .content-1{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    }
+    .content-2{
+        width: 90%;
+        margin: auto;
+        }
+        .content-3{
+            width: 90%;
+            margin: auto;
+            margin-bottom: 50px;
+            }
+}
+@media only screen and (max-width: 376px){
+    .content-1{
+        width: 95%;
+    }
+    .content-2{
+        width: 95%;
+    }
+
+    .content-3{
+        width: 95%;
+    }
+}
